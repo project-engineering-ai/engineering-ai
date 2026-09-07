@@ -21,3 +21,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# Hugo build artifacts
+/public/
+/resources/
+.hugo_build.lock
