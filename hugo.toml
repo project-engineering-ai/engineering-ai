@@ -1,4 +1,4 @@
-baseURL = "https://project-engineering-ai.github.io/engineering-ai/"
+baseURL = "https://engineering-ai.site/"
 title = "Engineering AI"
 theme = "terminal"
 languageCode = "en-us"
