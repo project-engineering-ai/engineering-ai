@@ -1,46 +1,72 @@
-baseURL = "https://engineering-ai.site/"
+baseURL = "https://engineering-ai.space/"
 title = "Engineering AI"
-theme = "terminal"
+theme = "hugo-theme-tokyo-terminal"
 languageCode = "en-us"
-[pagination]
-  pagerSize = 5
-
-[params]
-  contentTypeName = "posts"
-  themeColor = "green"
-  showMenuItems = 4
-  fullUrl = ""
-  centerTheme = true
-  readingTime = true
-  Toc = true
+defaultContentLanguage = "en"
 
 [languages]
   [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    weight = 1
+
+[pagination]
+  pagerSize = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  prompt = "guest@engineering-ai:~$"
+  contentTypeName = "posts"
+  readingTime = true
+  Toc = true
+
+  [params.dashboard]
+    enabled = true
+    ascii_art = """
+███████╗███╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗███████╗██████╗ ██╗███╗   ██╗ ██████╗      █████╗ ██╗
+██╔════╝████╗  ██║██╔════╝ ██║████╗  ██║██╔════╝██╔════╝██╔══██╗██║████╗  ██║██╔════╝     ██╔══██╗██║
+█████╗  ██╔██╗ ██║██║  ███╗██║██╔██╗ ██║█████╗  █████╗  ██████╔╝██║██╔██╗ ██║██║  ███╗    ███████║██║
+██╔══╝  ██║╚██╗██║██║   ██║██║██║╚██╗██║██╔══╝  ██╔══╝  ██╔══██╗██║██║╚██╗██║██║   ██║    ██╔══██║██║
+███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗███████╗██║  ██║██║██║ ╚████║╚██████╔╝    ██║  ██║██║
+╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝     ╚═╝  ╚═╝╚═╝
+"""
+    ascii_color = "#bb9af7"
     title = "Engineering AI"
-    subtitle = "AI & Automation Solutions"
-    keywords = "AI, machine learning, automation, engineering"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
+    subtitle = "ML & AI Research Company"
+    hint = "Press the highlighted keys to navigate."
 
-    [languages.en.params.logo]
-      logoText = "engineering-ai"
-      logoHomeLink = "/"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/project-engineering-ai"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "services"
-        name = "Services"
-        url = "/services"
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/posts"
-      [[languages.en.menu.main]]
-        identifier = "contact"
-        name = "Contact"
-        url = "/contact"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    [menu.main.params]
+      shortcut = "a"
+      icon = ""
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services"
+    [menu.main.params]
+      shortcut = "s"
+      icon = ""
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts"
+    [menu.main.params]
+      shortcut = "b"
+      icon = ""
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    [menu.main.params]
+      shortcut = "c"
+      icon = ""
