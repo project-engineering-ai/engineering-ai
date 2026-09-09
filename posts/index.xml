@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Engineering AI</title><link>https://engineering-ai.site/posts/</link><description>Recent content in Posts on Engineering AI</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0300</lastBuildDate><atom:link href="https://engineering-ai.site/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started with AI Automation</title><link>https://engineering-ai.site/posts/getting-started/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0300</pubDate><guid>https://engineering-ai.site/posts/getting-started/</guid><description>&lt;h1 id="getting-started-with-ai-automation">Getting Started with AI Automation&lt;/h1>
+&lt;p>AI automation doesn&amp;rsquo;t have to be complex. Here&amp;rsquo;s a practical guide to getting started.&lt;/p>
+&lt;h2 id="step-1-identify-the-problem">Step 1: Identify the Problem&lt;/h2>
+&lt;p>Look for repetitive, time-consuming tasks in your workflow:&lt;/p>
+&lt;ul>
+&lt;li>Data entry&lt;/li>
+&lt;li>Document processing&lt;/li>
+&lt;li>Customer support routing&lt;/li>
+&lt;li>Report generation&lt;/li>
+&lt;/ul>
+&lt;h2 id="step-2-start-small">Step 2: Start Small&lt;/h2>
+&lt;p>Don&amp;rsquo;t try to automate everything at once. Pick one process and build a proof of concept.&lt;/p>
+&lt;h2 id="step-3-choose-your-tools">Step 3: Choose Your Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Python&lt;/strong> — for ML and scripting&lt;/li>
+&lt;li>&lt;strong>Hugging Face&lt;/strong> — for pre-trained models&lt;/li>
+&lt;li>&lt;strong>Zapier/n8n&lt;/strong> — for workflow automation&lt;/li>
+&lt;li>&lt;strong>Docker&lt;/strong> — for deployment&lt;/li>
+&lt;/ul>
+&lt;h2 id="step-4-build--test">Step 4: Build &amp;amp; Test&lt;/h2>
+&lt;p>Start with a simple model or rule-based system. Test thoroughly before scaling.&lt;/p></description></item><item><title>Welcome to Engineering AI</title><link>https://engineering-ai.site/posts/welcome/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0300</pubDate><guid>https://engineering-ai.site/posts/welcome/</guid><description>&lt;h1 id="welcome-to-engineering-ai">Welcome to Engineering AI&lt;/h1>
+&lt;p>We&amp;rsquo;re excited to launch our new website. Here you&amp;rsquo;ll find information about our AI and automation services, insights from our team, and updates on our latest projects.&lt;/p>
+&lt;h2 id="what-to-expect">What to Expect&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Technical articles&lt;/strong> on AI/ML topics&lt;/li>
+&lt;li>&lt;strong>Case studies&lt;/strong> from our projects&lt;/li>
+&lt;li>&lt;strong>Industry insights&lt;/strong> and trends&lt;/li>
+&lt;li>&lt;strong>Tutorials&lt;/strong> and how-tos&lt;/li>
+&lt;/ul>
+&lt;h2 id="stay-tuned">Stay Tuned&lt;/h2>
+&lt;p>More content coming soon. Follow us on &lt;a href="https://github.com/project-engineering-ai">GitHub&lt;/a> for updates.&lt;/p></description></item></channel></rss>
